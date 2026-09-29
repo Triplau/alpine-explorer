@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alpine Explorer - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+            id="cookiebanner"
+            src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js">
+    </script>
+</head>
+
+<body>
+
+    <!-- Intestazione del sito -->
+    <header>
+
+        <h1>Alpine Explorer</h1>
+
+        <!-- Menu di navigazione -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="vette.html">Le grandi vette</a>
+            <a href="attrezzatura.html">Attrezzatura</a>
+        </nav>
+
+    </header>
+
+    <!-- Contenuto principale della home page -->
+    <main>
+
+        <h2 style="color: #B56A28;">
+            Benvenuto su Alpine Explorer
+        </h2>
+
+        <p>
+            Alla scoperta della montagna,
+            tra escursioni e alpinismo.
+        </p>
+
+        <p>
+            Scopri il mondo della montagna,
+            dalle escursioni alle grandi ascensioni.
+        </p>
+
+        <!-- Prima immagine: ospitata dal sito -->
+        <img src="immagini/homepage.jpg"
+             alt="Panorama delle Alpi">
+
+        <!-- Seconda immagine: caricata dal web -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Mount_Blanc_from_Vallandry_%288577710611%29_%282%29.jpg"
+             alt="Monte Bianco">
+
+        <!-- Pulsante interattivo -->
+        <section>
+
+            <h3>Scopri la montagna</h3>
+
+            <p>
+                Premi il pulsante per visualizzare
+                un messaggio di benvenuto!
+            </p>
+
+            <button type="button" onclick="mostraMessaggio()">
+                Scopri la montagna
+            </button>
+
+            <p id="messaggio"></p>
+
+        </section>
+
+    </main>
+
+    <!-- Collegamento al file JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

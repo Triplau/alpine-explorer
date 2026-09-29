@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alpine Explorer - Le grandi vette</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+            id="cookiebanner"
+            src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js">
+    </script>
+</head>
+
+<body>
+
+    <!-- Intestazione del sito -->
+    <header>
+
+        <h1>Alpine Explorer</h1>
+
+        <!-- Menu di navigazione -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="vette.html">Le grandi vette</a>
+            <a href="attrezzatura.html">Attrezzatura</a>
+        </nav>
+
+    </header>
+
+    <!-- Contenuto principale -->
+    <main>
+
+        <h2>Le grandi vette</h2>
+
+        <p>
+            Alla scoperta delle montagne
+            più affascinanti delle Alpi.
+        </p>
+
+        <!-- Prima sezione: Gran Paradiso -->
+        <section>
+
+            <h3>Gran Paradiso</h3>
+
+            <!-- Immagine ospitata dal sito -->
+            <img src="immagini/gran_paradiso.jpg"
+                 alt="Panorama del Gran Paradiso">
+
+            <p>
+                Il Gran Paradiso è una montagna delle
+                Alpi Graie che raggiunge i 4.061 metri
+                di altitudine.
+
+                È una delle mete più conosciute
+                dell'alpinismo italiano.
+            </p>
+
+        </section>
+
+        <!-- Seconda sezione: Cervino -->
+        <section>
+
+            <h3>Il Cervino</h3>
+
+            <!-- Immagine caricata da un server esterno -->
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Matterhorn_%26_wooden_cottages%2C_March_2019_%2803%29.jpg/960px-Matterhorn_%26_wooden_cottages%2C_March_2019_%2803%29.jpg"
+                 alt="Panorama del Cervino">
+
+            <p>
+                Il Cervino è una montagna delle
+                Alpi Pennine che raggiunge i
+                4.478 metri di altitudine.
+
+                È famoso per la sua caratteristica
+                forma piramidale e si trova al
+                confine tra Italia e Svizzera.
+            </p>
+
+        </section>
+
+        <!-- Terza sezione: fotografia bonus -->
+        <section>
+
+            <h3>Fotografia bonus</h3>
+
+            <p>
+                Vuoi scoprire un'altra grande montagna?
+                Premi il pulsante!
+            </p>
+
+            <button type="button" onclick="mostraBonus()">
+                Scopri la fotografia bonus
+            </button>
+
+            <!-- Contenitore inizialmente nascosto -->
+            <div id="bonus" style="display: none;">
+
+                <h3>Monte Rosa</h3>
+
+                <img src="immagini/monte_rosa.jpg"
+                     alt="Panorama del Monte Rosa">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Collegamento al file JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

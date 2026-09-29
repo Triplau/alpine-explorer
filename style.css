@@ -1,0 +1,137 @@
+/* ==============================
+   STILE GENERALE DELLA PAGINA
+   ============================== */
+
+body {
+    margin: 0;
+    background-color: #f2f5f1;
+    font-family: Arial, sans-serif;
+    color: #26332d;
+}
+
+
+/* ==============================
+   INTESTAZIONE
+   ============================== */
+
+header {
+    background-color: #17352d;
+    color: white;
+    padding: 35px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 20px 0;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+
+/* ==============================
+   MENU DI NAVIGAZIONE
+   ============================== */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    padding: 8px 12px;
+    font-size: 18px;
+}
+
+
+/* ==============================
+   CONTENUTO PRINCIPALE
+   ============================== */
+
+main {
+    max-width: 1150px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* ==============================
+   TITOLI
+   ============================== */
+
+main h2 {
+    font-size: 34px;
+    color: #17352d;
+    margin-bottom: 20px;
+}
+
+main h3 {
+    color: #2f5d50;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+
+/* ==============================
+   PARAGRAFI
+   ============================== */
+
+main p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 15px auto 25px auto;
+    max-width: 800px;
+}
+
+
+/* ==============================
+   SEZIONI
+   ============================== */
+
+section {
+    background-color: white;
+    margin: 35px 0;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ==============================
+   IMMAGINI
+   ============================== */
+
+main img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ==============================
+   PULSANTI
+   ============================== */
+
+button {
+    background-color: #17352d;
+    color: white;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f5d50;
+}
+
+
+/* ==============================
+   FOTOGRAFIA BONUS
+   ============================== */
+
+#bonus {
+    margin-top: 25px;
+}

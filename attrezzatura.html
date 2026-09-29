@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alpine Explorer - Attrezzatura</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+            id="cookiebanner"
+            src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js">
+    </script>
+</head>
+
+<body>
+
+    <!-- Intestazione del sito -->
+    <header>
+
+        <h1>Alpine Explorer</h1>
+
+        <!-- Menu di navigazione -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="vette.html">Le grandi vette</a>
+            <a href="attrezzatura.html">Attrezzatura</a>
+        </nav>
+
+    </header>
+
+    <!-- Contenuto principale -->
+    <main>
+
+        <h2>Attrezzatura da montagna</h2>
+
+        <p>
+            Scopri l'attrezzatura necessaria
+            per affrontare le escursioni
+            e le ascensioni in montagna.
+        </p>
+
+        <!-- Prima sezione: scarponi -->
+        <section>
+
+            <h3>Gli scarponi da montagna</h3>
+
+            <img src="immagini/scarponi.png"
+                 alt="Scarponi da montagna">
+
+            <p>
+                Gli scarponi sono fondamentali
+                per affrontare i sentieri di montagna.
+                Devono garantire una buona aderenza
+                al terreno, protezione del piede
+                e comfort durante la camminata.
+            </p>
+
+        </section>
+
+        <!-- Seconda sezione: piccozza -->
+        <section>
+
+            <h3>La piccozza da alpinismo</h3>
+
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Sierra_de_Ayll%C3%B3n%2C_invierno_1975_12.jpg/960px-Sierra_de_Ayll%C3%B3n%2C_invierno_1975_12.jpg"
+                 alt="Piccozza da alpinismo">
+
+            <p>
+                La piccozza è uno strumento utilizzato
+                durante le ascensioni su neve e ghiaccio.
+                Può essere impiegata per mantenere
+                l'equilibrio e, con le tecniche
+                appropriate, per arrestare una scivolata.
+            </p>
+
+        </section>
+
+        <!-- Sezione fotografia bonus -->
+        <section>
+
+            <h3>Fotografia bonus</h3>
+
+            <p>
+                Vuoi scoprire un altro elemento
+                dell'attrezzatura da alpinismo?
+                Premi il pulsante!
+            </p>
+
+            <button type="button" onclick="mostraBonus()">
+                Scopri la fotografia bonus
+            </button>
+
+            <!-- Immagine inizialmente nascosta -->
+            <div id="bonus" style="display: none;">
+
+                <h3>Lo zaino da alpinismo</h3>
+
+                <img src="immagini/zaino.jpg"
+                     alt="Zaino da alpinismo">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Collegamento al file JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
